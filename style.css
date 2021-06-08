@@ -1,0 +1,52 @@
+*{
+    font-family: 'Poppins';
+    background: hsl(0, 0%, 98%);
+}
+
+.header{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header p{
+    margin-top: 10px;
+}
+
+.notStrong{
+    font-weight: normal;
+}
+
+.main{
+    margin: 50px;
+    padding: 10px;
+}
+
+.boxLeft{
+    display: flex; 
+    flex-direction: column;
+    padding: 30px;
+    width: 25rem;
+    height: 15rem;
+    background: white;
+    border-top: 5px solid hsl(212, 86%, 64%);
+    box-shadow: 0.5px 0.5px;
+    border-radius: 1rem;
+    }
+
+.boxLeft p{
+        margin: 0;
+        background: white;
+}
+.boxLeft h3{
+    background: white;
+}
+
+.boxLeft .iconSupervisor{
+    align-content: flex-end;
+    align-self: flex-end;
+    margin-top: 70px;
+    background: white;
+}
+
+
+
